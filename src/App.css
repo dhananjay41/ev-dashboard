@@ -1,38 +1,26 @@
-.App {
+/* App.css */
+body {
+  background-color: #f8f9fa;
+}
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  overflow-y: auto;
+  height: 800px;
+}
+/* For modern browsers */
+.container {
+  overflow: auto; /* or overflow-y: scroll; to control only vertical scrolling */
+  scrollbar-width: none; /* Firefox */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* For WebKit-based browsers like Chrome, Safari, Edge */
+.container::-webkit-scrollbar {
+  width: 0px;
+  height: 0px; /* For horizontal scroll */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chart-container{
+  height: 300px;
 }
