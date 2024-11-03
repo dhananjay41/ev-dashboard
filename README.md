@@ -26,7 +26,3 @@ This project is a frontend dashboard for visualizing the Electric Vehicle (EV) p
 - **Chart.js**: For data visualization, including pie charts.
 - **CSS**: Custom styling for additional layout control.
 
-## Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/dhananjay41/ev-dashboard.git
